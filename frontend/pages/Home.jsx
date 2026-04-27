@@ -44,7 +44,7 @@ export default function Home() {
         </div>
         <div className="flex gap-10 items-center font-black text-[10px] tracking-[0.4em] uppercase text-slate-500">
           <span className="hidden lg:block">System_Ready_v4</span>
-          <button onClick={() => navigate('/login')} className="px-10 py-3 bg-white text-black rounded-full hover:bg-blue-600 hover:text-white transition-all shadow-xl">Connect</button>
+          <button onClick={() => navigate('/register')} className="px-10 py-3 bg-white text-black rounded-full hover:bg-blue-600 hover:text-white transition-all shadow-xl">Connect</button>
         </div>
       </nav>
 
